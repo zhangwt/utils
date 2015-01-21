@@ -1,0 +1,15 @@
+{
+   "cmd": ["g++", "-std=c++11", "-Wall", "${file}"],
+   "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+   "working_dir": "${project_path:${folder:${file_path}}}",
+   "selector": "source.c++",
+   "path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin",
+
+    "variants":
+    [
+      {
+        "name": "Run",
+        "cmd": "${file_path}/a.out"
+      }
+    ]
+}

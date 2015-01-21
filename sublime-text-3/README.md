@@ -1,0 +1,1 @@
+- path of `my-C++.sublime-build` and `my-Make.sublime-build` on Mac is `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/`
